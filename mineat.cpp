@@ -65,39 +65,7 @@ int main()
      }
      else if(h>n)
     {
-        /* ll avg=1;
-
-
-         while(avg<=mx)
-         {
-             ll cnt=0;
-             for(int i=0;i<n;i++)
-             {
-                if((a[i]%avg)!=0)
-                {
-
-                cnt+=(a[i]/avg)+1;
-
-                }
-                else if(a[i]%avg==0)
-                {
-
-                    cnt+=(a[i]/avg);
-                }
-                //cout<<avg<<endl;
-
-            }
-             if(cnt<=h)
-             {
-
-                 cout<<avg<<endl;
-                 break;
-             }
-
-             avg++;
-
-
-         }*/
+        
          int res=solve(1,mx,a,h,n);
          cout<<res<<endl;
 
